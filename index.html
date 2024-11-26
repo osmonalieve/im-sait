@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайд-шоун</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button id="theme-toggle">Күндүзгү режим</button>
+
+    <audio id="background-music" loop>
+        <source src="./img/Нурила - Махабат жок дебе.mp3" type="audio/mp3">
+        Ваш браузер не поддерживает тег audio.
+    </audio>
+
+    <button id="playButton">Музыка ойнотуу</button>
+
+    <div class="slider">
+        <img class="slide" src="./img/f8a17ce553b62848db2306189e747b10401d1ea0beac3f5803d06c4db3cb5c5c.png" />
+        <img class="slide" src="./img/IMG_0042.JPG" />
+        <img class="slide" src="./img/IMG_1914.JPG" />
+    </div>
+
+    <div class="countdown-container">
+        <h1>жаны ийигиликтерге жаны убакыт</h1>
+        <div id="countdown">
+            <span id="years"></span> жыл
+            <span id="months"></span> ай
+            <span id="days"></span> күн
+            <span id="hours"></span> саат
+            <span id="minutes"></span> минута
+            <span id="seconds"></span> секунда
+        </div>
+    </div>
+
+    <script src="./love.js"></script>
+</body>
+</html>
